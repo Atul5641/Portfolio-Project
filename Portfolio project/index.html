@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unique Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>Hello! I'm ATUL KUMAR GUPTA, a passionate web developer with a love for creating stunning,
+                        functional websites. I specialize in both front-end and back-end development and aim to create
+                        seamless, responsive websites that provide an exceptional user experience.</p>
+                    <img src="profile.jpeg" alt="My Photo" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <h3>HTML</h3>
+                        <p>Expert in crafting structured and semantic HTML for web pages.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>CSS</h3>
+                        <p>Experienced with styling and creating responsive layouts using CSS and frameworks like
+                            Bootstrap.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>JavaScript</h3>
+                        <p>Skilled in JavaScript to make websites interactive and dynamic.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Python</h3>
+                        <p>Leveraging Python's versatility and simplicity to build powerful applications and automate
+                            processes with ease.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>DBMS</h3>
+                        <p>Designing efficient, scalable databases for seamless data management and performance
+                            optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <div class="container">
+                <h2>My Resume</h2>
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <h4>Bachelor of Technology in Computer Science & Engg.</h4>
+                                <p>University Name , Graduation Year</p>
+                            </li>
+                            <!-- Add more education items as needed -->
+                        </ul>
+                    </div>
+                    <div class="resume-section">
+                        <h3>Work Experience</h3>
+                        <ul>
+                            <li>
+                                <h4>Web Developer</h4>
+                                <p>Company Name , Start Date - End Date</p>
+                                <ul>
+                                    <li>Responsibility or achievement 1</li>
+                                    <li>Responsibility or achievement 2</li>
+                                    <!-- Add more responsibilities or achievements as needed -->
+                                </ul>
+                            </li>
+                            <!-- Add more work experience items as needed -->
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="btn download-btn">Download Full Resume</a>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project" data-category="Web">
+                        <h3>Project 1</h3>
+                        <p>A description of your amazing web project goes here.</p>
+                        <br>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project" data-category="Mobile">
+                        <h3>Project 2</h3>
+                        <p>Another incredible mobile project description.</p>
+                        <br>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                    <div class="project" data-category="Design">
+                        <h3>Project 3</h3>
+                        <p>Highlight a unique design project or idea here!</p>
+                        <br>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-info">
+                    <p>If you have any questions or want to get in touch, feel free to reach out. I would love to hear
+                        from you!</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-btn">LinkedIn</a>
+                        <a href="#" target="_blank" class="social-btn">GitHub</a>
+                        <a href="#" target="_blank" class="social-btn">X</a>
+                        <a href="#" target="_blank" class="social-btn">Email</a>
+                        <a href="#" target="_blank" class="social-btn">Telegram</a>
+                        <a href="#" target="_blank" class="social-btn">Instagram</a>
+                        <a href="#" target="_blank" class="social-btn">Facebook</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio | Designed by ❤ ATUL KUMAR GUPTA ❤ |</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dynamic Greeting Message -->
+    <script>
+        const greeting = document.createElement('p');
+        const hours = new Date().getHours();
+        if (hours < 12) {
+            greeting.textContent = 'Good Morning!';
+        } else if (hours < 16) {
+            greeting.textContent = 'Good Afternoon!';
+        } else {
+            greeting.textContent = 'Good Evening!';
+        }
+
+        // Style the greeting message
+        greeting.classList.add('greeting-message');
+        document.querySelector('header .container').appendChild(greeting);
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
