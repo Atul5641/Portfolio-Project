@@ -1,7 +1,7 @@
 
 # Portfolio-project
 
-Welcome to my portfolio website! This platform showcases my journey and skills.
+Welcome to my Portfolio website! This platform showcases my journey and skills.
 
 
 ## Authors
