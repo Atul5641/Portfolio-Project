@@ -1,5 +1,5 @@
 
-# Portfolio-project
+# Portfolio-Project
 
 Welcome to my Portfolio website! This platform showcases my journey and skills.
 
